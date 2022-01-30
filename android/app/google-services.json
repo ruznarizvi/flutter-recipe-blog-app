@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026100608814",
+    "project_id": "yoyo-df823",
+    "storage_bucket": "yoyo-df823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026100608814:android:b2c6759ab6ce9884aa84bf",
+        "android_client_info": {
+          "package_name": "com.example.anotherrecipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026100608814-ekamrfirsjjics1si37o9ldg1gammcfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK7YvZvQW0owh39wXe7SAMFEaCZQRplho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026100608814-ekamrfirsjjics1si37o9ldg1gammcfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
