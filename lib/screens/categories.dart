@@ -1,10 +1,13 @@
+import 'package:anotherrecipeapp/animation/animation.dart';
 import 'package:anotherrecipeapp/databasehelper.dart';
 import 'package:anotherrecipeapp/screens/headerdelegate.dart';
 import 'package:anotherrecipeapp/screens/recipecategorydetails.dart';
 import 'package:anotherrecipeapp/screens/recipesearchdetails.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 
 class Categories extends StatefulWidget {
   //const Categories({Key? key}) : super(key: key);

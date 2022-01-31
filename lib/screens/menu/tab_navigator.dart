@@ -41,9 +41,9 @@ class _TabNavigatorState extends State<TabNavigator> {
       child = Categories(id: widget.id, email: widget.email, rool: widget.rool,);
 
 
-    // else if(widget.tabItem == "Page3")
-    //   child = viewFavourites(id: widget.id, email: widget.email, rool: widget.rool,);
     else if(widget.tabItem == "Page3")
+      child = viewFavourites(id: widget.id, email: widget.email, rool: widget.rool,);
+    else if(widget.tabItem == "Page4")
       child = AccountProfile(id: widget.id, email: widget.email, rool: widget.rool,);
 
     return Navigator(
